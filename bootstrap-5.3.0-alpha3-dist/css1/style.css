@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.colorEspecial {
+    background-color: rgb(53, 58, 64);
+    width: 100%;
+    display: flex;
+    align-items: baseline
+}
+
+.navbar-brand {
+    margin-left: 60px;
+
+}
+
+.navbar-nav {
+    margin-right: 60px;
+}
+
+.btn-outline-secondary {
+    border: var(--bs-white);
+    ;
+}
+
+.imagen_principal {
+    background-image: url(../assets/img/ba1.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(70, 74, 68);
+    background-blend-mode: soft-light;
+
+
+}
+
+.color-button-comprar {
+    background-color: rgb(41, 167, 68);
+    border: 1px solid rgb(41, 167, 68);
+}
+
+.card-float {
+    font-weight: 300px;
+    text-align: right;
+    padding: 150px 130px;
+    padding-left: 50px
+}
+
+.container-titulo {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    top: 100 px;
+}
+
+.container-cards {
+    margin: 10px 200px;
+    height: 40%;
+}
+
+
+.java-1 {
+    padding: 0px 2px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.react-1 {
+    padding: 0px 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    margin: 3px;
+    background-color: rgb(83, 186, 202);
+    border: 1px solid rgb(83, 186, 202);
+
+}
+
+.abaButton-1 {
+    padding: 0px 3px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.abaButton-2 {
+    padding: 0px 3px;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 3px;
+}
+
+.color-car-lugYfecha {
+    background-color: rgb(53, 58, 64);
+    border-radius: 0%;
+}
+
+.container-convierteteOrador {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    top: 100 px;
+
+
+}
+
+.p-convierteteOrador {
+    font-size: 9px;
+    padding: 3px;
+
+}
+
+.charla-ignite {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.text-area {
+    height: 200px;
+}
+
+.color-enviar {
+    background-color: rgb(150, 201, 62);
+
+}
+
+/* Inicio Footer */
+footer {
+    margin-top: 1em;
+    height: 100px;
+    border: 1px solid rgb(30, 81, 110);
+    background-color: rgb(30, 81, 110);
+}
+
+footer nav ul li {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobail {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .card-float {
+        font-weight: 300px;
+        text-align: right;
+        padding: 150px 130px;
+        padding-left: 50px
+    }
+
+    ul {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 300px;
+        padding: 20px 0;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobail {
+        display: block;
+    }
+
+}
+
+
+
+/* final footer */
